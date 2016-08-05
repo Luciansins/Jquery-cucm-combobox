@@ -1,12 +1,12 @@
 # Jquery-cucm-combobox
-Implementation of ivkremer simple-combobox for Cisco Unified Communications Manager (CallManager) working on TamperMonkey or GreaseMonkey extensions.
+Implementation of ivkremer's simple-combobox for Cisco Unified Communications Manager (CallManager) meant to run on TamperMonkey or GreaseMonkey browser extensions.
 
 Original project can be found on the following link:
 https://github.com/ivkremer/jquery-simple-combobox
 
 ###Usage:
 
-Modify the select names on the fk_list to add or remove the dropdown-boxes you want to filter e.g:
+Modify the select item names on the fk_list to add or remove the dropdown-boxes you want to filter e.g:
 
 ```javascript
 $fk_list = $('select[name=fkcallingsearchspace_sharedlineappear], '+
